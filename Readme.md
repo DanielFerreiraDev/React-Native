@@ -1,16 +1,6 @@
 
 #GitHub
 
-Este é um repositorio para ensinar como Git funciona!
-
-Editado agora
-
-Saiba mais
-
-
-Gostou do Curso? Quer mais?
-
-cartao de doacao
-
-Add update 
+Este é um repositorio para avaliar o rendimento do aluno Daniel Ferreira do Nascimento
+no aprendizado sobre React-Native no LASIC, tanto pelos commits como pelo andamento das seções do projeto.
 
