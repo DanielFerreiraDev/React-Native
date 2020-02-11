@@ -8,7 +8,7 @@ import Contador from './componentes/Contador'
 
 export default createDrawerNavigator({
     Contador: {
-        screen: () => <Contador numero={8}/>
+        screen: () => <Contador numeroInicial={1000}/>
     },
     MegaSena: {
         screen: () => <MegaSena numeros={8} />,

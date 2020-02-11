@@ -7,4 +7,6 @@ no aprendizado sobre React-Native no LASIC, tanto pelos commits como pelo andame
 ERRO: Estou com problemas ao instalar o React-Navigator(Estou procurando soluções)
 RESOLUTION: Já consegui resolver o problema do React-Navigator(seguindo com as aulas)
 
-Aula 26: Componente de Classe & Estado (parado: 7:23)
+Aula 26: Componente de Classe & Estado (CONCLUIDO) - Importancia da diferença entre componentes baseados em classes e componentes baseados em funções.
+
+Aula 27: Cuidado com o 'this' (Andamento) 
