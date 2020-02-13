@@ -8,8 +8,13 @@ import Contador from './componentes/Contador'
 import ValidarProps from './componentes/ValidarProps'
 import Evento from './componentes/Evento'
 import  Avo  from './componentes/ComunicacaoDireta'
+import TextoSicronizado, { Entrada } from './componentes/ComunicacoaIndireta'
 
 export default createDrawerNavigator({
+    TextoSicronizado : {
+        screen: TextoSicronizado,
+        navigationOptions : { title: 'Texto Sicronizado'}
+    },
     ComunicacaoDireta: {
         screen: () => <Avo nome='Joao' sobrenome='Silva'/>
     },

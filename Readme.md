@@ -17,4 +17,6 @@ Aula 29: Validar Propriedades (CONCLUIDO) - É importante saber como lidar os ti
 
 Aula 30: Eventos & Componentes Controlados (CONCLUIDO) - Foi abordado em como em um formulario os componentes controlados e não controlados podem funcionar, porém optando sempre por o componente constrolado.
 
-Aula 31: Comunicação direta via Props (CONCLUIDO) - Como fazer o caminho direto e indireto entre componentes Pai e Filho, passando sobrenome para os filhos Avô -> Pai -> Filho.
+Aula 31: Comunicação Direta via Props (CONCLUIDO) - Como fazer o caminho direto e indireto entre componentes Pai e Filho, passando sobrenome para os filhos Avô -> Pai -> Filho.
+
+Aula 32: Comunicação Indireta via Callback (CONCLUIDO) - Usar um componente que possui estado mas de forma indireta usar um componente funcional para fazer a mudança de estado.
