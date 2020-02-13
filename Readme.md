@@ -20,3 +20,5 @@ Aula 30: Eventos & Componentes Controlados (CONCLUIDO) - Foi abordado em como em
 Aula 31: Comunicação Direta via Props (CONCLUIDO) - Como fazer o caminho direto e indireto entre componentes Pai e Filho, passando sobrenome para os filhos Avô -> Pai -> Filho.
 
 Aula 32: Comunicação Indireta via Callback (CONCLUIDO) - Usar um componente que possui estado mas de forma indireta usar um componente funcional para fazer a mudança de estado.
+
+Aula 33: Flex Box Nomeclatura (CONCLUIDO) - Explicando como funciona o flex box para o posicionamento dos componentes(em containers)
