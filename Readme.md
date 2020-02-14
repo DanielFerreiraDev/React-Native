@@ -30,3 +30,5 @@ Aula 34: Flex Box Nomeclatura (CONCLUIDO) - Explicando como funciona o flex box 
 Aula 35: Lista de Alunos #01 (CONCLUIDO) - Crianção de lista de alunos com notas no qual vai ser trabalhado o conceito de Flex Box.
 
 Aula 36: Lista de Alunos #02 (CONCLUIDO) - Mudança no const de estilo para explicar como o alignItems e o justifyContent funciona no Flex Box.
+
+Aula 37: Exemplo FlexBox (CONCLUIDO) - Usando um FlexContainer com FlexItems para exemplificar como o Flex Box altera o layout da aplicação
