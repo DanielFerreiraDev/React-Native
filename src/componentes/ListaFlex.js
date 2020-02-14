@@ -30,6 +30,15 @@ const intemEstilo = {
     backgroundColor: '#DDD',
     borderWidth: 0.5,
     borderColor: '#222',
+
+    // Flex 
+    // justifyContent: 'space-around', trabalha com main axis
+    alignItems: 'center', 
+    flexDirection: 'row', //Mudou o main axix para ser a linha agora 
+    justifyContent: 'space-between',
+    //justifyContent: 'space-around',
+    //alignItems: 'flex-start'
+    
 }
 
 export const Aluno = props =>

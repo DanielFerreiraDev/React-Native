@@ -4,6 +4,8 @@
 Este é um repositorio para avaliar o rendimento do aluno Daniel Ferreira do Nascimento
 no aprendizado sobre React-Native no LASIC, tanto pelos commits como pelo andamento das seções do projeto.
 
+================================================================================================================
+
 ERRO: Estou com problemas ao instalar o React-Navigator(Estou procurando soluções)
 RESOLUTION: Já consegui resolver o problema do React-Navigator(seguindo com as aulas)
 
@@ -13,7 +15,7 @@ Aula 27: Cuidado com o 'this' (CONCLUIDO) - Formas e as pegadinhas do this em fu
 
 Aula 28: Diferenciando IOS e Android (CONCLUIDO) - Porém com duvidas sobre como o emulator do ios funciona(pod install sem funcionar)
 
-Aula 29: Validar Propriedades (CONCLUIDO) - É importante saber como lidar os tipos de dados que esta trabalhando e validando sempre que possivel usando o PropTypes
+Aula 29: Validar Propriedades (CONCLUIDO) - É importante saber como lidar os tipos de dados que esta trabalhando e validando sempre que possivel usando o PropTypes.
 
 Aula 30: Eventos & Componentes Controlados (CONCLUIDO) - Foi abordado em como em um formulario os componentes controlados e não controlados podem funcionar, porém optando sempre por o componente constrolado.
 
@@ -21,8 +23,10 @@ Aula 31: Comunicação Direta via Props (CONCLUIDO) - Como fazer o caminho diret
 
 Aula 32: Comunicação Indireta via Callback (CONCLUIDO) - Usar um componente que possui estado mas de forma indireta usar um componente funcional para fazer a mudança de estado.
 
-Aula 33: Amostragem do Flex Box
+Aula 33: Amostragem do Flex Box.
 
-Aula 34: Flex Box Nomeclatura (CONCLUIDO) - Explicando como funciona o flex box para o posicionamento dos componentes(em containers)
+Aula 34: Flex Box Nomeclatura (CONCLUIDO) - Explicando como funciona o flex box para o posicionamento dos componentes(em containers).
 
-Aula 35: Lista de Alunos #01 (CONCLUIDO) - Crianção de lista de alunos com notas no qual vai ser trabalhado o conceito de Flex Box
+Aula 35: Lista de Alunos #01 (CONCLUIDO) - Crianção de lista de alunos com notas no qual vai ser trabalhado o conceito de Flex Box.
+
+Aula 36: Lista de Alunos #02 (CONCLUIDO) - Mudança no const de estilo para explicar como o alignItems e o justifyContent funciona no Flex Box.
