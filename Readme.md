@@ -36,3 +36,5 @@ Aula 37: Exemplo FlexBox (CONCLUIDO) - Usando um FlexContainer com FlexItems par
 Auka 38: Criar Projeto Calculadora (CONCLUIDO) - Criando projeto que vai ser feito a calculadora.
 
 Aula 39: Componente Botão #01 (CONCLUIDO) - Criando os primeiros componentes da calculadora e organizando o layout
+
+Aula 40: Componente Display (CONCLUIDO) - Criando o display da calculadora onde vai aparecer os numeros digitados.
