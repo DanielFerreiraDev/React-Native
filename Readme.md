@@ -38,3 +38,7 @@ Auka 38: Criar Projeto Calculadora (CONCLUIDO) - Criando projeto que vai ser fei
 Aula 39: Componente Botão #01 (CONCLUIDO) - Criando os primeiros componentes da calculadora e organizando o layout
 
 Aula 40: Componente Display (CONCLUIDO) - Criando o display da calculadora onde vai aparecer os numeros digitados.
+
+Aula 41: Componente Botao #02 (CONCLUIDO) - Adicionando metodos para os botoes quando forem clicados e layout.
+
+
