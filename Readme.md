@@ -43,6 +43,11 @@ Aula 41: Componente Botao #02 (CONCLUIDO) - Adicionando metodos para os botoes q
 
 Aula 42: Entendendo a Lógica da calculadora (CONCLUIDO) - Explicando como vai sera  logica para a calculadora
 
-Aula 43: Colocando as condições para que a calculadora funcione tanto o display como a logica que vai ser usada nas operações.
+Aula 43: Logica da Calculadora #01 (CONCLUIDO) Colocando as condições para que a calculadora funcione tanto o display como a logica que vai ser usada nas operações.
 
+Aula 44: Logica da Calculadora #02 (CONCLUIDO) Finalizando a calculadora com as operações e suas exeções.
+
+Aula 45: Correção #01 (CONCLUIDO) Correção do '.' onde dar um erro no app
+
+Aula 46: Correção #02 (CONCLUIDO) Correção do '.' que nao é contado quando limpa o display
 
