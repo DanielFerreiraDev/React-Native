@@ -51,3 +51,7 @@ Aula 45: Correção #01 (CONCLUIDO) Correção do '.' onde dar um erro no app
 
 Aula 46: Correção #02 (CONCLUIDO) Correção do '.' que nao é contado quando limpa o display
 
+Aula 47: Criar Projeto Campo Minado (CONCLUIDO) Criando o projeto para fazer o campo minado
+
+Aula 48: Parâmetros do jogo (CONCLUIDO) Atribuindo os parametros para os blocos(botoes) do campo minado e o espaço que vai ser usado na tela.
+
