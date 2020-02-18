@@ -41,4 +41,8 @@ Aula 40: Componente Display (CONCLUIDO) - Criando o display da calculadora onde 
 
 Aula 41: Componente Botao #02 (CONCLUIDO) - Adicionando metodos para os botoes quando forem clicados e layout.
 
+Aula 42: Entendendo a Lógica da calculadora (CONCLUIDO) - Explicando como vai sera  logica para a calculadora
+
+Aula 43: Colocando as condições para que a calculadora funcione tanto o display como a logica que vai ser usada nas operações.
+
 
