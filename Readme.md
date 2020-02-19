@@ -55,3 +55,9 @@ Aula 47: Criar Projeto Campo Minado (CONCLUIDO) Criando o projeto para fazer o c
 
 Aula 48: Parâmetros do jogo (CONCLUIDO) Atribuindo os parametros para os blocos(botoes) do campo minado e o espaço que vai ser usado na tela.
 
+Aula 49: Componente Campo (Field) #01 (CONCLUIDO) Criando os layouts dos blocos
+
+Aula 50: Componente Campo (Field) #02 (CONCLUIDO) Criando estilo para os blocos e os numeros que envolvem uma mina
+
+
+
