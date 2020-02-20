@@ -4,6 +4,7 @@ import { StyleSheet, View, Text } from 'react-native';
 import params from './src/params'
 import Field from './src/components/Field'
 
+
 export default class App extends Component{
   render() {
     return (
@@ -23,7 +24,7 @@ export default class App extends Component{
       <Field mined opened exploded />
       <Field flagged />
       <Field flagged opened />
-
+      
       </View>
     )
   }

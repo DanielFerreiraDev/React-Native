@@ -63,7 +63,7 @@ Aula 51: Componente Mina (Mine) (CONCLUIDO) Criando o estilo para a mina e as co
 
 Aula 52: Componente Bandeira (Flag) (CONCLUIDO) Criando o estilo para a bandeira do campo minado e as condiçoes para que ela apareça
 
-
+Aula 53: Componente Bandeira (Flag) (CONCLUIDO) Criando flag maior para poder utilizar no cabeçario na hora de escolher dificuldade
 
 
 
