@@ -59,5 +59,11 @@ Aula 49: Componente Campo (Field) #01 (CONCLUIDO) Criando os layouts dos blocos
 
 Aula 50: Componente Campo (Field) #02 (CONCLUIDO) Criando estilo para os blocos e os numeros que envolvem uma mina
 
+Aula 51: Componente Mina (Mine) (CONCLUIDO) Criando o estilo para a mina e as condiçoes para ela aparecer
+
+Aula 52: Componente Bandeira (Flag) (CONCLUIDO) Criando o estilo para a bandeira do campo minado e as condiçoes para que ela apareça
+
+
+
 
 
