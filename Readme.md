@@ -77,4 +77,4 @@ Aula 58: Explicando a Lógica do Jogo (CONCLUIDO) Explica como vai ser feita a v
 
 Aula 59: Lógica do Jogo (CONCLUIDO) Criação dos metodos que interagem no campo para fazer as verificações de aberto, explodido, ganho e etc.
 
-
+Aula 60: Abrir Campo(onPress) (CONCLUIDO) Unindo toda a lógica já feita com a renderização no MineField
