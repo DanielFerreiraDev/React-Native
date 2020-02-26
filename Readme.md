@@ -73,3 +73,8 @@ Aula 56: Componente Tabuleiro (MineField) (CONCLUIDO) Criação do tabuleiro a p
 
 Aula 57: Correção no componente MineField (CONCLUIDO) Correção no flexDirection para ser dentro da View
 
+Aula 58: Explicando a Lógica do Jogo (CONCLUIDO) Explica como vai ser feita a verificação das casas no campo minado
+
+Aula 59: Lógica do Jogo (CONCLUIDO) Criação dos metodos que interagem no campo para fazer as verificações de aberto, explodido, ganho e etc.
+
+
