@@ -65,5 +65,9 @@ Aula 52: Componente Bandeira (Flag) (CONCLUIDO) Criando o estilo para a bandeira
 
 Aula 53: Componente Bandeira (Flag) (CONCLUIDO) Criando flag maior para poder utilizar no cabeçario na hora de escolher dificuldade
 
+Aula 54: Revisão JavaScript: Map (CONCLUIDO) Explicando como o map pode ser utilizado na aplicação do mines
+
+Aula 54: Lógica do Jogo #01 (CONCLUIDO) Criando 3 metodos, um para criar o tabuleiro o outro para sortear as minas e o ultimo para unir os dois.
+
 
 
