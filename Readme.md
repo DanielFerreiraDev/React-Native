@@ -71,3 +71,5 @@ Aula 55: Lógica do Jogo #01 (CONCLUIDO) Criando 3 metodos, um para criar o tabu
 
 Aula 56: Componente Tabuleiro (MineField) (CONCLUIDO) Criação do tabuleiro a partir dos componentes criados nas aulas passadas. 
 
+Aula 57: Correção no componente MineField (CONCLUIDO) Correção no flexDirection para ser dentro da View
+
