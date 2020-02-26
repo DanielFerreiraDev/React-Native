@@ -80,3 +80,5 @@ Aula 59: Lógica do Jogo (CONCLUIDO) Criação dos metodos que interagem no camp
 Aula 60: Abrir Campo(onPress) (CONCLUIDO) Unindo toda a lógica já feita com a renderização no MineField
 
 Aula 61: Marcar Campo(onLongPress) (CONCLUIDO) Adicionar a opção de marcar uma flag no campo desejado
+
+Aula 62: Cabeçalho do Jogo (CONCLUIDO) Adicionar imagem das flags que faltam e o botao para iniciar outro jogo caso queira
