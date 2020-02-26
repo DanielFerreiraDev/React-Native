@@ -67,7 +67,7 @@ Aula 53: Componente Bandeira (Flag) (CONCLUIDO) Criando flag maior para poder ut
 
 Aula 54: Revisão JavaScript: Map (CONCLUIDO) Explicando como o map pode ser utilizado na aplicação do mines
 
-Aula 54: Lógica do Jogo #01 (CONCLUIDO) Criando 3 metodos, um para criar o tabuleiro o outro para sortear as minas e o ultimo para unir os dois.
+Aula 55: Lógica do Jogo #01 (CONCLUIDO) Criando 3 metodos, um para criar o tabuleiro o outro para sortear as minas e o ultimo para unir os dois.
 
-
+Aula 56: Componente Tabuleiro (MineField) (CONCLUIDO) Criação do tabuleiro a partir dos componentes criados nas aulas passadas. 
 
