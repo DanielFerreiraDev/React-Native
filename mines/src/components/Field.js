@@ -13,6 +13,7 @@ export default props => {
     if (exploded) styleField.push(styles.exploded)
     if (flagged) styleField.push(styles.flagged)
     if (!opened && !exploded) styleField.push(styles.regular)
+    if (flagged && mined && opened) styleField.push(styles.hits)
 
     let color = null
     if( nearMines > 0) {
@@ -62,6 +63,10 @@ const styles = StyleSheet.create ({
     exploded: {
         backgroundColor: 'red',
         borderColor: 'red',
+    },
+    hits: {
+        backgroundColor: 'green',
+        borderColor: 'green'
     }
 
 })
