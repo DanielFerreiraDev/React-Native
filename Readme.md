@@ -84,3 +84,5 @@ Aula 61: Marcar Campo(onLongPress) (CONCLUIDO) Adicionar a opção de marcar uma
 Aula 62: Cabeçalho do Jogo (CONCLUIDO) Adicionar imagem das flags que faltam e o botao para iniciar outro jogo caso queira
 
 Aula 63: Selecionar o Nivel de Dificuldade (CONCLUIDO) Adiconando um frame para selecionar os niveis de dificuldade, aumentando ou diminuindo a quantidade de minas.
+
+A partir de agora só irei atualizar os codigos!
