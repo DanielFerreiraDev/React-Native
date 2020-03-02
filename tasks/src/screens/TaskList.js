@@ -78,8 +78,12 @@ export default class TaskList extends Component {
         const tasks = [...this.state.tasks]
         tasks.push({
             id: Math.random(),
-            desc: newTask
+            desc: newTask.desc,
+            estimateAt: newTask.date,
+            doneAt: null
         })
+
+        this.setState({ tasks,showAddTask: false }, this.filterTasks)
     }
 
     render() {
