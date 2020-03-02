@@ -1,5 +1,13 @@
 import React , {Component }from 'react'
-import { View, Text, ImageBackground, StyleSheet, FlatList, TouchableOpacity, Platform } from 'react-native'
+import { 
+    View, 
+    Text, 
+    ImageBackground, 
+    StyleSheet, 
+    FlatList, 
+    TouchableOpacity, 
+    Platform } 
+    from 'react-native'
 
 import commonStyles from '../commonStyles'
 import todayImage from '../../assets/imgs/today.jpg'
