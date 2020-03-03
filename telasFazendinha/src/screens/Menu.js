@@ -32,14 +32,15 @@ export default class Menu extends Component {
                     <Text style={styles.title}>Menu</Text>
                 </View> 
                 <View style={styles.buttonsZone}>
-                    <TouchableOpacity onPress={() => this.setState({ showParicoes: true})}
+                    <TouchableOpacity activeOpacity={0.7}
+                    onPress={() => this.setState({ showParicoes: true})}
                         style={styles.addButton}>
                         <Text style={styles.buttons}> Parições/Nascimento</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => this.setState({ showCobertura: true})}>
+                    <TouchableOpacity activeOpacity={0.7}
+                    onPress={() => this.setState({ showCobertura: true})}>
                         <Text style={styles.buttons}> Cobertura</Text>
                     </TouchableOpacity>
-
                 </View>
             </View>
         )

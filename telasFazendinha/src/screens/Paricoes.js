@@ -10,6 +10,7 @@ import {
     TouchableOpacity,
     TextInput,
 } from 'react-native'
+import Icon from 'react-native-vector-icons/AntDesign'
 
 export default class Paricoes extends Component{
     render(){
@@ -29,7 +30,9 @@ export default class Paricoes extends Component{
                             <Text>Filhos</Text>
                         </View>
                         <View style={styles.saveOrCancel}>
-                            <Text>SaveOrCancel</Text>
+                            <TouchableOpacity onPress={this.props.onCancel}>
+                                <Icon name="arrowleft" size={30}/>
+                            </TouchableOpacity>
                         </View>
                     </View>
                 </TouchableWithoutFeedback>
