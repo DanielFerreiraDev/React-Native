@@ -6,8 +6,6 @@ import {
     TouchableOpacity
 } from 'react-native'
 
-import Icon from 'react-native-vector-icons/FontAwesome'
-
 import Parições from './Paricoes'
 import Cobertura from './Cobertura'
 
@@ -66,8 +64,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     },
-   
-    
     buttons: {
         fontSize: 30,
         marginBottom: 70,
