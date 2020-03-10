@@ -19,15 +19,15 @@ export const ContainerDadosFilhos = styled.View`
     flex: 1;
     margin: 15px;
 `
-export const ContainerInput = styled.View`
-    justify-content: space-between;
-    
-`
 export const ContainerDadosData = styled.View`
     margin: 15px;
     background: rgba(0, 0, 0, 0.1);
     margin-right: 50px;
     align-items: center;
+`
+export const ContainerInput = styled.View`
+    justify-content: space-between;
+    
 `
 export const Title = styled.View`
     flex-direction: row;
