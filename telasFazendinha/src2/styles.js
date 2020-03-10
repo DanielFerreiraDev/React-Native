@@ -75,7 +75,7 @@ export const Button = styled.Text`
     justify-content: center;
     color: #fff;
     font-weight: bold;
-  
 `
+
 
 

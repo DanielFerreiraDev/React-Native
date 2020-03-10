@@ -29,6 +29,7 @@ import { Button } from '../styles'
 import moment from 'moment'
 import 'moment/locale/pt-br'
 import DateTimePicker from '@react-native-community/datetimepicker'
+import { ScrollView } from 'react-native-gesture-handler'
 
 const initialState = {date: new Date(), showDatePicker: false}
 
@@ -71,28 +72,32 @@ export default class Paricoes extends Component {
                 <BackGround >
                     <Title>
                         <TextTitle>Cobertura</TextTitle>
-                        <Icon name="infocirlceo" size={40} color="#fff"/>
+                        <Icon name="infocirlceo" size={30} color="#fff"/>
                     </Title>
-                    <ContainerDadosPais>
-                        <TextDados>Dados dos Pais</TextDados>
-                        <TextDados>Touro :</TextDados>
-                        <TxtInput></TxtInput>
-                        <TextDados>Vaca :</TextDados>
-                        <TxtInput></TxtInput>
-                    </ContainerDadosPais>
-                    <ContainerDadosFilhos>
-                        <TextDados>Data da Cobertura</TextDados>
-                        {this.getDatePicker()}
-                    </ContainerDadosFilhos>
-                    <Buttons>
-                        <TouchableOpacity>
-                            <Icon name="arrowleft" 
-                            size={50} style={{marginTop: 25, marginRight: 50}} onPress={this.props.onCancel} />
-                        </TouchableOpacity>
-                        <TouchableOpacity>
-                            <Button>Salvar</Button>
-                        </TouchableOpacity>
-                    </Buttons>
+                    <ScrollView>
+                        <ContainerDadosPais>
+                            <TextDados>Dados dos Pais</TextDados>
+                            <TextDados>Touro :</TextDados>
+                            <TxtInput></TxtInput>
+                            <Icon name="pluscircleo" size={30} style={{marginLeft: 300, color:'#fff'}}/>
+                            <TextDados>Vaca :</TextDados>
+                            <TxtInput></TxtInput>
+                            <Icon name="pluscircleo" size={30} style={{marginLeft: 300, color:'#fff'}}/>
+                        </ContainerDadosPais>
+                        <ContainerDadosFilhos>
+                            <TextDados>Data da Cobertura</TextDados>
+                            {this.getDatePicker()}
+                        </ContainerDadosFilhos>
+                        <Buttons>
+                            <TouchableOpacity>
+                                <Icon name="arrowleft" 
+                                size={50} style={{marginTop: 25, marginRight: 50}} onPress={this.props.onCancel} />
+                            </TouchableOpacity>
+                            <TouchableOpacity>
+                                <Button>Salvar</Button>
+                            </TouchableOpacity>
+                        </Buttons>
+                    </ScrollView>
                 </BackGround>
             </Modal>
         )
