@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import {
     Modal,
     Platform,
@@ -32,88 +32,64 @@ import DateTimePicker from '@react-native-community/datetimepicker'
 
 const initialState = {date: new Date(), showDatePicker: false, showCadastrar: false}
 
-export default class Paricoes extends Component {
-    state= {
-        ...initialState
-    }
-    getDatePicker = () => {
-        if(this.state.date == null){ 
-            this.state.date = new Date()
+export default function Paricoes ({ navigation }){
+    
+    const [date, setDate] = useState(new Date())
+    const [showDatePicker, setShowDatePicker] = useState(false)
+    const [showCadastrar, setShowCadastrar] = useState(false)
+    
+
+   
+    function getDatePicker ()  {
+        /* if(date == null){ 
+            date = new Date()
         }
-        let datePicker = <DateTimePicker value={this.state.date} 
-            onChange={(_,date) => this.setState({ date, showDatePicker: false })}
+        let datePicker = <DateTimePicker value={date} 
+            onChange={(_,date) => setDate(false), setShowDatePicker(false)}
             mode='date'/>
 
-        const dateString = moment(this.state.date).format('ddd, D [de] MMMM [de] YYYY')
+        const dateString = moment(date).format('ddd, D [de] MMMM [de] YYYY')
             
         if(Platform.OS === 'android'){
             datePicker =(
                 <ContainerDadosData>
-                    <TouchableOpacity onPress={() => this.setState({ showDatePicker: true })}>
+                    <TouchableOpacity onPress={() =>setShowDatePicker(true)}>
                         <TextData>
                             {dateString}
                         </TextData>
                     </TouchableOpacity>
-                    {this.state.showDatePicker && datePicker}
+                    {showDatePicker && datePicker}
                 </ContainerDadosData>
             ) 
-        }
+        } */
         return datePicker
     }
-
-    render() {
-        const today = moment().locale('pt-br').format('ddd, D [de] MMMM')
-        return(
-            
-            <Modal visible={this.props.isVisible}
-                onRequestClose={this.props.onCancel}>
-            <Cadastrar isVisible={this.state.showCadastrar} 
-                    onCancel={() => this.setState({ showCadastrar: false})}>
-                        
-                    </Cadastrar>
-               
-                <BackGround >
-                    <Title>
-                        <TextTitle>Parições/Nascimentos</TextTitle>
-                        <Icon name="infocirlceo" size={30} color="#fff"/>
-                    </Title>
-                    <ScrollView>
-                        <ContainerDadosPais>
-                            <TextDados>Dados dos Pais</TextDados>
-                            <TextDados>Touro :</TextDados>
-                            <TxtInput></TxtInput>
-                                <TouchableOpacity onPress={() => this.setState({showCadastrar: true})}>
-                                    <Icon name="pluscircleo" size={30} 
-                                        style={{marginLeft: 300, color:'#fff'}}/>
-                                </TouchableOpacity>
-                            <TextDados>Vaca :</TextDados>
-                            <TxtInput></TxtInput>
-                                <TouchableOpacity onPress={() => this.setState({showCadastrar: true})}>
-                                    <Icon name="pluscircleo" size={30} 
-                                        style={{marginLeft: 300, color:'#fff'}}/>
-                                </TouchableOpacity>
-                        </ContainerDadosPais>
-                        <ContainerDadosFilhos>
-                            <TextDados>Dados da Cria</TextDados>
-                            <TextDados>Nome :</TextDados>
-                            <TxtInput></TxtInput>
-                            <TextDados>Data de Nascimento/Parição :</TextDados>
-                            {this.getDatePicker()}
-                        </ContainerDadosFilhos>
-                        <Buttons>
-                            <TouchableOpacity>
-                                <Icon name="arrowleft" size={50} 
-                                    style={{marginTop: 25,  marginRight: 50}} 
-                                    onPress={this.props.onCancel} />
-                            </TouchableOpacity>
-                            <TouchableOpacity>
-                                <Button>Salvar</Button>
-                            </TouchableOpacity>
-                        </Buttons>
-                    </ScrollView>
+    const today = moment().locale('pt-br').format('ddd, D [de] MMMM')
+    return(
+        <BackGround>
+            <Title>
+                <TextTitle>Parições/Nascimentos</TextTitle>
+                <Icon name="infocirlceo" size={30} color="#fff"/>
+            </Title>
+            <ScrollView>
+                <ContainerDadosPais>
+                    <TextDados>Dados dos Pais</TextDados>
+                    <TextDados>Touro :</TextDados>
+                    <TxtInput></TxtInput> 
                     
-                </BackGround>
-            </Modal>
-        )
-    }
+                    <TextDados>Vaca :</TextDados>
+                    <TxtInput></TxtInput>
+
+                </ContainerDadosPais>
+                <ContainerDadosFilhos>
+                    <TextDados>Dados da Cria</TextDados>
+                    <TextDados>Nome :</TextDados>
+                    <TxtInput></TxtInput>
+                    <TextDados>Data de Nascimento/Parição :</TextDados>
+                </ContainerDadosFilhos>
+                {getDatePicker()}
+            </ScrollView>
+        </BackGround>
+        
+    )
 }
